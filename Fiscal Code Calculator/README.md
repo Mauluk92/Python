@@ -4,7 +4,7 @@ This was developed during a course on introduction to programming using Python, 
 
 Here's what it looks like:
 
-![General Layout](./images_documentation/Fiscal_Code_General_Layout)
+![General Layout](./image_documentation/Fiscal_Code_General_Layout)
 # Table of Contents #
 1. [Technologies](#technologies)
 2. [Prerequisites](#prerequisites)
@@ -31,7 +31,7 @@ There is no particular prerequisite to run the Fiscal Code Calculator. The appli
 The application includes a system to check the correcteness of user input by means of regular expression (No numbers on name inputs, and so on), displaying error messages to the user.
 Below is an example of incorrect digited inputs:
 
-![Errors1](./images_documentation/Fiscal_Code_Errors.png)
+![Errors1](./image_documentation/Fiscal_Code_Errors.png)
 
 Also, by means of Levenshtein library, i implemented an algorithm to find the nearest user's birth place, when it is inserted incorrectly. For example:
 
