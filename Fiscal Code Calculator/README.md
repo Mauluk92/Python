@@ -4,7 +4,7 @@ This was developed during a course on introduction to programming using Python, 
 
 Here's what it looks like:
 
-![General Layout](./image_documentation/Fiscal_Code_General_Layout)
+![General Layout](./image_documentation/Fiscal_Code_General_Layout.png)
 # Table of Contents #
 1. [Technologies](#technologies)
 2. [Prerequisites](#prerequisites)
@@ -22,11 +22,11 @@ Here's what it looks like:
 * **Unidecode 1.3.2**
 * **DateTime 4.3**
 
-##<a name="prerequisites"></a> Setup ##
+<a name="prerequisites"></a>## Setup ##
 
 There is no particular prerequisite to run the Fiscal Code Calculator. The application is OS-independent and uses minimal resources, being written in Tkinter, which is native to Python.
 
-##<a name="features"></a> Functionalities ##
+<a name="features"></a> ##Functionalities ##
 
 The application includes a system to check the correcteness of user input by means of regular expression (No numbers on name inputs, and so on), displaying error messages to the user.
 Below is an example of incorrect digited inputs:
@@ -41,15 +41,15 @@ Finally, the fiscal code calculator is capable of determining a leap year, thus 
 
 ![Errors3](./image_documentation/Fiscal_Code_Leap.png)
 
-##<a name="status"></a> Project Status ##
+<a name="status"></a> ##Project Status ##
 
 Currently, i have no plan to develop the project further. However i am planning to re-build the fiscal code calculator using another GUI library, namely Kivy, to explore its functionalities and features.
 
-##<a name="source"></a> Source ##
+<a name="source"></a>## Source ##
 
 As i mentioned before, i was inspired to build this application as part of a task during an introductory course on Python.
 The task was to calculate certain characters in the fiscal code through console input and output.
 
-##<a name="source"></a>Other information ##
+<a name="source"></a>##Other information ##
 
 
