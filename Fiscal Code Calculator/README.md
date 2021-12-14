@@ -4,7 +4,7 @@ This was developed during a course on introduction to programming using Python, 
 
 Here's what it looks like:
 
-![General Layout](image_documentation/Fiscal_Code_General_Layout.png)
+![General Layout](FiscalCodeCalculator/image_documentation/Fiscal_Code_General_Layout.png)
 # Table of Contents #
 1. [Technologies](#technologies)
 2. [Prerequisites](#prerequisites)
