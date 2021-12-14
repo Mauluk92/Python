@@ -1,5 +1,5 @@
 # Fiscal Code Calculator - Desktop Application #
-Simple Fiscal Code Calculator. I used this project to learn mainly regular expressions (for checking inputs) and Graphical Interfaces Logic(using Tkinter).
+Simple Fiscal Code Calculator. I used this project to learn mainly regular expressions (for checking inputs) and Graphical Interfaces Logic (using Tkinter).
 This was developed during a course on introduction to programming using Python, for didactic purposes. 
 
 Here's what it looks like:
@@ -33,7 +33,7 @@ Below is an example of incorrect digited inputs:
 
 ![Errors1](image_documentation/Fiscal_Code_Errors.png)
 
-Also, by means of Levenshtein library, i implemented an algorithm to find the nearest user's birth place, when it is inserted incorrectly. For example:
+Also, by means of Levenshtein library, i implemented an algorithm to find the closest approximation of the user's birth place, when it is inserted incorrectly. For example:
 
 ![Errors2](image_documentation/Fiscal_Code_Levenshtein.png)
 
