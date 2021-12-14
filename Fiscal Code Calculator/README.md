@@ -12,7 +12,7 @@ Here's what it looks like:
 4. [Project Status](#status)
 5. [Source](#source)
 
-##<a name="technologies"></a> Technologies##
+## Technologies <a name="technologies"></a> 
 
 * **Python 3.6.0**
 * **Tkinter 8.6**
