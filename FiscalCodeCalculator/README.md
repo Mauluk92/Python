@@ -35,7 +35,7 @@ Below is an example of incorrect digited inputs:
 
 Also, by means of Levenshtein library, i implemented an algorithm to find the nearest user's birth place, when it is inserted incorrectly. For example:
 
-|[Errors2](image_documentation/Fiscal_Code_Levenshtein.png)
+![Errors2](image_documentation/Fiscal_Code_Levenshtein.png)
 
 Finally, the fiscal code calculator is capable of determining a leap year, thus checking the date by means of the calendar module. Here's an example of a fiscal code calculated in 2011 (non-leap year) in the 29th of February:
 
