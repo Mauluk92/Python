@@ -1,0 +1,255 @@
+<MyTestLayout>:
+	FloatLayout:
+		FloatLayout:
+			canvas.before:
+				Color:
+					rgba: root.bud_color
+				PushMatrix
+				Scale:
+					x: root.scaling_core
+					y: root.scaling_core
+				Rotate:
+					angle: root.angle1
+					axis: 0,0,1
+					origin: self.center_x, self.center_y	
+				Rectangle:
+					pos: (root.center_x-50 )/(root.scaling_core) + 50 *(1/(root.scaling_core) - 1), (root.center_y-50  )/(root.scaling_core) + 50* (1/(root.scaling_core) - 1)
+					source:"ROSE01.png"
+					size: 100,100
+			canvas.after:
+				PopMatrix
+		FloatLayout:
+			canvas.before:
+				Color:
+					rgba: root.rgba1_crown
+				PushMatrix
+				Scale:
+					x: root.scaling
+					y: root.scaling
+				Rotate:
+					angle: root.angle2
+					axis: 0,0,1
+					origin: self.center_x, self.center_y	
+				Rectangle:
+					pos: (root.center_x-50)/(root.scaling) + 50 *(1/(root.scaling) - 1), (root.center_y-50 - root.radius_inside)/(root.scaling) + 50* (1/(root.scaling) - 1)
+					size: 100,100
+					source: "ROSE02.png"
+			canvas.after:
+				PopMatrix
+		FloatLayout:
+			canvas.before:
+				Color:
+					rgba: root.rgba2_crown
+				PushMatrix
+				Scale:
+					x: root.scaling
+					y: root.scaling
+				Rotate:
+					angle: root.angle3
+					axis: 0,0,1
+					origin: self.center_x, self.center_y
+				Rectangle:
+					pos:(root.center_x-50+ root.radius_external)/(root.scaling) + 50 *(1/(root.scaling) - 1), (root.center_y-50- root.radius_external)/(root.scaling) + 50* (1/(root.scaling) - 1)
+					size: 100,100
+					source: "ROSE03.png"
+			canvas.after:
+				PopMatrix
+		FloatLayout:
+			canvas.before:
+				Color:
+					rgba: root.rgba3_crown
+				PushMatrix
+				Scale:
+					x: root.scaling
+					y: root.scaling
+				Rotate:
+					angle: root.angle4
+					axis: 0,0,1
+					origin: self.center_x, self.center_y
+				Rectangle:
+					pos: (root.center_x-50+ root.radius_external)/(root.scaling) + 50 *(1/(root.scaling) - 1), (root.center_y-50 )/(root.scaling) + 50* (1/(root.scaling) - 1)
+					size: 100,100
+					source: "ROSE04.png"
+			canvas.after:
+				PopMatrix
+		FloatLayout:
+			canvas.before:
+				Color:
+					rgba: root.rgba4_crown
+				PushMatrix
+				Scale:
+					x: root.scaling
+					y: root.scaling
+				Rotate:
+					angle: root.angle5
+					axis: 0,0,1
+					origin: self.center_x, self.center_y
+				Rectangle:
+					pos:(root.center_x-50+ root.radius_inside)/(root.scaling) + 50 *(1/(root.scaling) - 1), (root.center_y-50 )/(root.scaling) + 50* (1/(root.scaling) - 1)
+					size: 100,100
+					source: "ROSE05.png"
+			canvas.after:
+				PopMatrix
+		FloatLayout:
+			canvas.before:
+				Color:
+					rgba: root.rgba5_crown
+				PushMatrix
+				Scale:
+					x: root.scaling
+					y: root.scaling
+				Rotate:
+					angle: root.angle6
+					axis: 0,0,1
+					origin: self.center_x, self.center_y
+				Rectangle:
+					pos:(root.center_x-50+ root.radius_external)/(root.scaling) + 50 *(1/(root.scaling) - 1), (root.center_y-50+ root.radius_external )/(root.scaling) + 50* (1/(root.scaling) - 1)
+					size: 100,100
+					source: "ROSE06.png"
+			canvas.after:
+				PopMatrix
+		FloatLayout:
+			canvas.before:
+				Color:
+					rgba: root.rgba6_crown
+				PushMatrix
+				Scale:
+					x: root.scaling
+					y: root.scaling
+				Rotate:
+					angle: root.angle7
+					axis: 0,0,1
+					origin: self.center_x, self.center_y
+				Rectangle:
+					pos: (root.center_x-50- root.radius_external)/(root.scaling) + 50 *(1/(root.scaling) - 1), (root.center_y-50+ root.radius_external )/(root.scaling) + 50* (1/(root.scaling) - 1)
+					size: 100,100
+					source: "ROSE07.png"
+			canvas.after:
+				PopMatrix
+		FloatLayout:
+			canvas.before:
+				Color:
+					rgba: root.rgba7_crown
+				PushMatrix
+				Scale:
+					x: root.scaling
+					y: root.scaling
+				Rotate:
+					angle: root.angle8
+					axis: 0,0,1
+					origin: self.center_x, self.center_y
+				Rectangle:
+					pos: (root.center_x-50- root.radius_external)/(root.scaling) + 50 *(1/(root.scaling) - 1), (root.center_y-50 )/(root.scaling) + 50* (1/(root.scaling) - 1)
+					size: 100,100
+					source: "ROSE08.png"
+			canvas.after:
+				PopMatrix
+		FloatLayout:
+			canvas.before:
+				Color:
+					rgba: root.rgba8_crown
+				PushMatrix
+				Scale:
+					x: root.scaling
+					y: root.scaling
+				Rotate:
+					angle: root.angle9
+					axis: 0,0,1
+					origin: self.center_x, self.center_y
+				Rectangle:
+					pos: (root.center_x-50- root.radius_inside)/(root.scaling) + 50 *(1/(root.scaling) - 1), (root.center_y-50- root.radius_inside )/(root.scaling) + 50* (1/(root.scaling) - 1)
+					size: 100,100
+					source: "ROSE09.png"
+			canvas.after:
+				PopMatrix
+		FloatLayout:
+			canvas.before:
+				Color:
+					rgba: root.rgba9_crown
+				PushMatrix
+				Scale:
+					x: root.scaling
+					y: root.scaling
+				Rotate:
+					angle: root.angle10
+					axis: 0,0,1
+					origin: self.center_x, self.center_y
+				Rectangle:
+					pos: (root.center_x-50- root.radius_middle)/(root.scaling) + 50 *(1/(root.scaling) - 1), (root.center_y-50)/(root.scaling) + 50* (1/(root.scaling) - 1)
+					size: 100,100
+					source: "ROSE10.png"
+			canvas.after:
+				PopMatrix
+		FloatLayout:
+			canvas.before:
+				Color:
+					rgba: root.rgba10_crown
+				PushMatrix
+				Scale:
+					x: root.scaling
+					y: root.scaling
+				Rotate:
+					angle: root.angle11
+					axis: 0,0,1
+					origin: self.center_x, self.center_y
+				Rectangle:
+					pos: (root.center_x-50)/(root.scaling) + 50 *(1/(root.scaling) - 1), (root.center_y-50 - root.radius_middle)/(root.scaling) + 50* (1/(root.scaling) - 1)
+					size: 100,100
+					source: "ROSE11.png"
+			canvas.after:
+				PopMatrix
+		FloatLayout:
+			canvas.before:
+				Color:
+					rgba: root.rgba11_crown
+				PushMatrix
+				Scale:
+					x: root.scaling
+					y: root.scaling
+				Rotate:
+					angle: root.angle12
+					axis: 0,0,1
+					origin: self.center_x, self.center_y
+				Rectangle:
+					pos: (root.center_x-50)/(root.scaling) + 50 *(1/(root.scaling) - 1), (root.center_y-50- root.radius_external )/(root.scaling) + 50* (1/(root.scaling) - 1)
+					size: 100,100
+					source: "ROSE12.png"
+			canvas.after:
+				PopMatrix
+		FloatLayout:
+			canvas.before:
+				Color:
+					rgba: root.rose_color_background
+				PushMatrix
+				Scale:
+					x: root.scaling_background
+					y: root.scaling_background
+				Rotate:
+					angle: root.angle1
+					axis: 0,0,1
+					origin: self.center_x, self.center_y	
+				Rectangle:
+					pos: (root.center_x-50)/(root.scaling_background) + 50 *(1/(root.scaling_background) - 1), (root.center_y-50 )/(root.scaling_background) + 50* (1/(root.scaling_background) - 1)
+					size: 100,100
+					source:"SFONDO.png"
+			canvas.after:
+				PopMatrix
+		FloatLayout
+			canvas.before:
+				PushMatrix
+				Color:
+					rgba: root.cursor_color
+				Rectangle:
+					pos: root.center_x +root.cursor_position_x, root.center_y + 100-10
+					size:10, 20
+			canvas.after:
+				PopMatrix
+			Label:
+				id: lbl_output
+				pos: 0, 100
+				text:root.output
+				font_name: "MonospaceTypewriter.ttf"
+				color: root.output_color
+				font_size: 20
+			
+										
