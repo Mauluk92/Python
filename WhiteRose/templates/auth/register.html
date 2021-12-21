@@ -1,0 +1,39 @@
+{% extends "bootstrap/base.html" %}
+{% block head %} {{ super()}} <link rel="stylesheet" href={{url_for('static', filename='css/mystyle.css')}} > {% endblock %}
+{% block title %} Login {% endblock %}
+{% block navbar%}
+
+<div class="navbar navbar-inverse" role="navigation">
+	<div class=container>
+		<ul class="nav">
+			{% if current_user.is_authenticated %}
+			<li><a href={{ url_for('auth.logout')}}>Sign Out </a></li>
+			{% else %}
+			<li><a href={{ url_for('auth.login')}}>Sign In</a></li>
+			<li><a href={{ url_for('auth.register')}}> Register </a></i>
+			{% endif %}
+			<li><a href={{url_for('index')}}>Home</a></li>
+		</ul>
+	</div>
+</div>
+{% endblock %}
+{% block body %}
+{{super()}}
+<div class="row">
+	<div class="col">
+	
+		<div class="col text-center">
+			<form method="POST" action="/auth/register">
+				<div class="form-group col-md-4 col-lg-offset-4">
+					{{ registrationform.csrf_token() }}
+					{{registrationform.email.label(class_='change') }} {{registrationform.email(class_='form-control')}}
+					{{registrationform.username.label(class_='change') }} {{registrationform.username(class_='form-control')}}
+					{{registrationform.password.label(class_='change') }} {{registrationform.password(class_='form-control')}}
+					{{registrationform.password2.label(class_='change') }}{{registrationform.password2(class_='form-control')}}
+					{{registrationform.submit(class_='form-control')}}
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+{% endblock %}
