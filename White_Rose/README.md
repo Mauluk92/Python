@@ -1,6 +1,6 @@
-# WhiteRose Library: a web application for managing books in a library
+# WhiteRose Blog web application using Django
 
-This is a minimal web application for Social Blogging
+This is a minimal web application for Social Blogging, developed using django framework.
 
 # Table of Contents
 1. [Technologies](#technologies)
