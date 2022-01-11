@@ -1,6 +1,6 @@
 # WhiteRose Blog web application using Django
 
-This is a minimal web application for Social Blogging, developed using django framework.
+This is a minimal web application for Social Blogging, developed using django framework, deployed on heroku.
 
 # Table of Contents
 1. [Technologies](#technologies)
@@ -25,6 +25,10 @@ This is a minimal web application for Social Blogging, developed using django fr
 
 The App provides utilities for loggin in-loggin out, a sign up form with django-crispy-forms, while allowing only to authenticated users to post articles on blogs.
 Also it includes a PostgreSQL database to store users and posts.
+
+The app is deployed on heroku 
+
+https://whiterose-social.herokuapp.com/
 
 ## Project Status
 
