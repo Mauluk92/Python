@@ -204,7 +204,7 @@ class FiscalCodeCalculator():
             return errors
         else:
             if list_inputs[-1] == 40:
-                    list_inputs[4] = str(int(list_inputs[4] + 40))
+                list_inputs[4] = str(int(list_inputs[4] + 40))
             for elements, func in zip(list_inputs[:-1], func_calc):
                 resulting_code += func(elements)
             for char_index in range(len(resulting_code)):
