@@ -203,9 +203,9 @@ class FiscalCodeCalculator():
         if errors:
             return errors
         else:
+            if list_inputs[-1] == 40:
+                    list_inputs[4] = str(int(list_inputs[4] + 40))
             for elements, func in zip(list_inputs[:-1], func_calc):
-                if list_inputs[-1] == 40:
-                    list_inputs[2] += 40
                 resulting_code += func(elements)
             for char_index in range(len(resulting_code)):
                 if char_index %2 == 0:
